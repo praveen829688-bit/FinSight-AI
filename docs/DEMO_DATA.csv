@@ -1,0 +1,6 @@
+transactionDate,account,category,type,amount,department,description,sourceSystem
+2026-09-25,Operating,Software,EXPENSE,8200,Engineering,Cloud subscription,SAP
+2026-09-26,Operating,Software,EXPENSE,9100,Engineering,Developer tooling,Oracle
+2026-09-27,Corporate,Marketing,EXPENSE,7800,Sales,Campaign spend,Dynamics
+2026-09-28,Operating,Software,EXPENSE,92000,Engineering,Unusual enterprise purchase,SAP
+2026-09-29,Corporate,Sales,INCOME,52000,Sales,Customer invoice,Oracle

@@ -1,0 +1,1 @@
+package com.finsightai.dto; public record ForecastPoint(String month,double forecastRevenue,String method){}

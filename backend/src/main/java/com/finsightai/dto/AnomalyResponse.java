@@ -1,0 +1,1 @@
+package com.finsightai.dto; import java.math.BigDecimal; public record AnomalyResponse(Long id,String category,BigDecimal amount,double score,String reason,String severity){}

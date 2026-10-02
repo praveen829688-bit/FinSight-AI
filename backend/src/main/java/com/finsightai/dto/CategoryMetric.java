@@ -1,0 +1,1 @@
+package com.finsightai.dto; import java.math.BigDecimal; public record CategoryMetric(String category,BigDecimal amount){}

@@ -1,0 +1,1 @@
+package com.finsightai.service; import org.springframework.scheduling.annotation.Scheduled;import org.springframework.stereotype.Component;@Component public class AnomalyScheduler{private final AnalyticsService analytics;public AnomalyScheduler(AnalyticsService a){analytics=a;}@Scheduled(cron="0 0 */6 * * *") public void refresh(){analytics.anomalies();}}

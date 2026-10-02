@@ -1,0 +1,1 @@
+package com.finsightai.dto; import java.math.BigDecimal; public record KpiResponse(BigDecimal revenue,BigDecimal expenses,BigDecimal profit,double margin,int transactionCount,int anomalyCount){}
