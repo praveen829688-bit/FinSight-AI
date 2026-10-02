@@ -31,10 +31,10 @@ public class SecurityConfig {
 
         CorsConfiguration c = new CorsConfiguration();
 
-        c.setAllowedOrigins(List.of(
+        c.setAllowedOriginPatterns(List.of(
                 "http://localhost:5173",
                 "http://localhost:3000",
-                "https://finsight-ai-bay-chi.vercel.app"
+                "https://*.vercel.app"
         ));
 
         c.setAllowedMethods(List.of(
